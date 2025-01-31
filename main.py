@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from db_config.db import engine, Base
+from config.db import engine, Base
 from routers import bank, branch
 import uvicorn
 
